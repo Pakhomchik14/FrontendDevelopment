@@ -48,3 +48,22 @@ body {
 	border-bottom: 3px solid #212121;
 	font-weight: 700;
 }
+
+.slider-text {
+	width: 470px;
+}
+
+.text {
+	font-size: 18px;
+	color: #43a047;
+	font-weight: 900px;
+}
+
+.text-heading {
+	font-size: 62px;
+	text-transform: uppercase;
+}
+
+.text-content {
+
+}
