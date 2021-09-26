@@ -51,12 +51,14 @@ body {
 
 .slider-text {
 	width: 470px;
+	margin-left: 80px
 }
 
 .text {
 	font-size: 18px;
 	color: #43a047;
 	font-weight: 900px;
+	margin-top: 277px
 }
 
 .text-heading {
@@ -65,5 +67,57 @@ body {
 }
 
 .text-content {
+	font-size: 14px;
+}
 
+.order-button {
+	display: inline-block;
+	background: #fff;
+	width:  213px;
+	height:  45px;
+	border-radius: 24px;
+	text-align: center;
+	line-height: 45px;
+	margin-top: 25px;
+	box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+	font-size: 18px;
+	font-weight: 700px;
+	color: #212121;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+}
+
+.order-button:focus {
+	box-shadow: none;
+}
+
+.button {
+	font-size: 18px;
+	font-weight: 700px;
+	color: #212121;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.slider {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 140px;
+}
+
+.slider-button {
+	display: inline-block;
+	background-color: #c7c7c7;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	margin: 0px 5px;
+}
+
+.slider-button.active {
+	width: 40px;
+	height: 40px;
+	background-color: #212121;
 }
