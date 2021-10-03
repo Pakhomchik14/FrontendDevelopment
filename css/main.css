@@ -73,6 +73,7 @@ body {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	letter-spacing: -1.5px;
+	font-weight: 100;
 }
 
 .text-content {
@@ -186,20 +187,40 @@ body {
 }
 
 .products {
+	display: flex;
 	margin-top: 220px;
 	margin-left: 90px;
 }
 
 .products-img {
 	padding-left: 30px;
+	width: 270px;
+	height: 270px;
 }
 
 .products-img.active {
 	background-color: #fcfcfc;
 }
 
+.products-img-one{
+	background-image: url(../img/product-1.svg);
+}
+
+.products-img-two{
+	background-image: url(../img/product-2.svg);
+}
+
+.products-img-three{
+	background-image: url(../img/product-3.svg);
+}
+
+.products-img-four{
+	background-image: url(../img/product-4.svg);
+}
+
 .posters{
 	display: flex;
+	margin-top: 120px;
 }
 
 .poster {
@@ -208,8 +229,74 @@ body {
 	height: 680px;
 }
 
+.posters-contents{
+	margin-top: 230px;
+	margin-left: 52px;
+	width: 365px;
+}
 .second-poster{
 	background-image: url(../img/promo-img.svg);
 	width: 685px;
 	height: 680px;
+}
+
+.poster-text {
+	color: #1e88e5;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.5px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.poster-heading {
+	font-size: 36px;
+	color: #212121;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.poster-content {
+	font-size: 14.5px;
+	color: #3b3e41;
+	line-height: 24px;
+}
+
+.trend-products {
+		display: flex;
+}
+
+.trend-product {
+	width: 370px;
+	height: 370px;
+
+}
+
+.trend-product-1{
+	background-image: url(../img/product-11.svg);
+}
+
+.trend-product-2{
+	background-image: url(../img/product-21.svg);
+}
+
+.trend-product-3{
+	background-image: url(../img/product-31.svg);
+}
+
+.trend-product-4{
+	background-image: url(../img/product-41.svg);
+}
+
+.trend-product-5{
+	background-image: url(../img/product-5.svg);
+}
+
+.trend-product-6{
+	background-image: url(../img/product-6.svg);
+}
+
+.hot-deals {
+	height: 800px;
+	background-image: url(../img/slider.svg);
 }
